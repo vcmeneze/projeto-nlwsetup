@@ -1,0 +1,97 @@
+body {
+  background-color: rgb(12, 11, 11);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.botao {
+  border: 1px solid #8b5cf6;
+  border-radius: 8px;
+  background-color: transparent;
+  color: whitesmoke;
+  padding: 16px 24px;
+  font-family: "Inter";
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+header {
+  display: flex;
+  background-color: rgb(12, 11, 11);
+  align-items: center;
+  justify-content: space-between;
+  padding: 48px;
+  position: fixed;
+  width: 90%;
+}
+
+input {
+  appearance: none;
+  -webkit-appearance: none;
+
+  width: 64px;
+  height: 64px;
+  border: 2px solid #27272a;
+  border-radius: 8px;
+  background-color: #27272a;
+}
+
+input:checked {
+  background-color: #8b5cf6;
+  border: 2px solid #a78bfa;
+  border-radius: 8px;
+}
+
+#form-habits {
+  display: flex;
+  padding: 0;
+  gap: 32px;
+  width: fit-content;
+  padding: 182px 48px;
+}
+
+.habits {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 24px;
+  margin-top: 60px;
+}
+
+.habit {
+  display: flex;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+  font-size: 32px;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.days {
+  display: flex;
+  gap: 48px;
+  padding: 0;
+  align-items: flex-start;
+}
+
+.day {
+  color: whitesmoke;
+  font-family: "inter";
+  display: flex;
+  flex-direction: column;
+  padding: 8px 0px;
+  gap: 24px;
+  align-items: center;
+}
+
+@media (max-width: 570px) {
+  button div {
+    display: none;
+  }
+}
